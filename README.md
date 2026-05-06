@@ -12,7 +12,8 @@ An automated data pipeline that fetches Premier League 2024/25 data from a publi
 
 ## Architecture
 
-The below snapshot shows the project architecture
+The below snapshot shows the project architecture:
+<img src="images/Project Architecture.png"/>
 
 ---
 
@@ -99,12 +100,15 @@ s3://your-bucket/premier-league/
 
 **Page 1 — Season Overview**
 Cards for total matches, total goals, top scorer name & goals | Bar chart: goals per gameweek | Pie chart: home win vs away win vs draw
+<img src="dashboard/dashboard_page1.png"/>
 
 **Page 2 — League Table**
 Full standings table with zone coloring | Cards for selected team + GD with conditional color | Bar chart: goals for vs goals against
+<img src="dashboard/dashboard_page2.png"/>
 
 **Page 3 — Top Scorers**
 Rank slicer | Player image | Info cards: name, team, nationality | Stacked bar: goals, assists, non-pen goals, penalties
+<img src="dashboard/dashboard_page3.png"/>
 
 ---
 
@@ -112,10 +116,18 @@ Rank slicer | Player image | Info cards: name, team, nationality | Stacked bar: 
 
 ```
 Premier-League-Analytics-Using-AWS-and-Power-BI/
-├── lambda_function.py          
+├── dashboard/
+│   ├── pl_dashboard.pbix
+│   ├── dashboard_page1.png
+│   ├── dashboard_page2.png
+│   ├── dashboard_page3.png
+├── data/
+│   ├── matches.csv
+│   ├── scorers.csv
+│   ├── standings.csv
+│   ├── teams.csv
 ├── images/
 │   ├── project_architecture.png
-├── dashboard/
-│   └── pl_dashboard.pbix            
+├── lambda_function.py
 └── README.md
 ```
