@@ -1,7 +1,7 @@
 # Premier League Analytics Using AWS and Power BI
 
 > End-to-end data engineering project — AWS + Power BI | Season 2024/25
-<img src="images/Project Architecture.png"/>
+<img src="images/project_architecture.png"/>
 
 ---
 
