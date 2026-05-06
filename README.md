@@ -1,19 +1,13 @@
 # Premier League Analytics Using AWS and Power BI
 
 > End-to-end data engineering project — AWS + Power BI | Season 2024/25
+<img src="images/Project Architecture.png"/>
 
 ---
 
 ## Overview
 
 An automated data pipeline that fetches Premier League 2024/25 data from a public API [football-data.org](https://www.football-data.org), processes and stores it on AWS, and visualizes it through an interactive Power BI dashboard.
-
----
-
-## Architecture
-
-The below snapshot shows the project architecture:
-<img src="images/Project Architecture.png"/>
 
 ---
 
